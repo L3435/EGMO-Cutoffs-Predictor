@@ -1,0 +1,110 @@
+code,name,P1,P2,P3,P4,P5,P6,prize
+BEL1,Pauline Bessemans,1,3,0,0,0,0,
+BEL2,Morine Delhelle,7,0,0,1,0,0,Honourable Mention
+BEL3,France Gheeraert,4,1,0,5,0,0,
+BEL4,Manon Mackels,1,1,0,0,0,0,
+BGR1,Denitsa Markova,7,3,7,1,7,0,Silver Medal
+BGR2,Violeta Naydenova,7,3,1,7,3,0,Silver Medal
+BGR3,Magdalena Georgieva,7,2,0,7,7,0,Silver Medal
+BGR4,Dona-Maria Ivanova,2,1,0,7,1,0,Bronze Medal
+BLR1,Katsiaryna Kunts,7,1,0,7,1,0,Bronze Medal
+BLR2,Lizaveta Manzhulina,5,2,0,7,1,0,Bronze Medal
+BLR3,Ina Rudovich,7,0,0,0,1,0,Honourable Mention
+BLR4,Swetlana Shaban,7,0,1,0,2,0,Honourable Mention
+BLRB1,Diana Fomina,7,1,7,0,0,0,Bronze Medal
+BLRB2,Tatsiana Palikarpava,2,0,0,0,0,0,
+BLRB3,Anhelina Yarashenka,1,1,0,6,0,0,
+BLRB4,Hanna Zadarazhniuk,1,1,0,7,0,0,Honourable Mention
+FIN1,Ella Anttila,1,0,2,1,2,0,
+FIN2,Ella Tamir,1,1,0,1,2,0,
+FIN3,Tara Vaittinen,0,0,0,0,0,0,
+FRA1,Albertine Devillers,1,2,1,2,2,0,
+FRA2,Clara Ding,7,4,0,4,6,0,Silver Medal
+FRA3,Myriam Qrichi Aniba,1,0,0,0,2,0,
+FRA4,Lucie Wang,7,4,0,7,7,0,Silver Medal
+HUN1,Zsuzsanna Baran,7,5,7,3,7,0,Gold Medal
+HUN2,Panna Fekete,7,0,1,7,7,0,Silver Medal
+HUN3,Szuzina Gyulai-Nagy,7,3,2,3,0,1,Bronze Medal
+HUN4,Sára Khayouti,7,1,7,1,7,0,Silver Medal
+IND1,Pranjal Warade,7,2,0,7,0,0,Bronze Medal
+IND2,Raagini Patki,2,1,0,1,0,3,
+IRL1,Toni Aidong Huang,1,1,0,1,0,0,
+IRL2,Ioana Grigoras,1,1,0,0,0,0,
+IRL3,Anna Mustata,7,3,0,3,7,0,Silver Medal
+IRL4,Katie Louise O&#x27;Connor,1,2,0,0,1,0,
+ITA1,Camilla Casamento Tumeo,6,3,0,7,0,0,Bronze Medal
+ITA2,Giulia Cornali,7,3,0,1,1,0,Bronze Medal
+ITA3,Morena Porzio,7,0,1,3,1,0,Bronze Medal
+ITA4,Vittoria Ricciuti,1,0,0,7,0,0,Honourable Mention
+JPN1,Yurika Hirobe,7,2,0,4,3,0,Bronze Medal
+JPN2,Mayuko Kori,7,2,0,1,0,3,Bronze Medal
+JPN3,Maya Ogita,7,5,0,7,7,0,Gold Medal
+JPN4,Yuika Shimo,1,1,0,7,0,3,Bronze Medal
+LTU1,Vaiva Augustinaitė,1,3,0,3,2,0,
+LTU2,Leticija Dubickaitė,1,0,0,4,0,0,
+LTU3,Aistė Grušnytė,1,0,0,3,1,0,
+LTU4,Neringa Levinskaitė,7,1,7,2,3,0,Silver Medal
+LUX1,Tara Trauthwein,7,2,0,7,1,0,Bronze Medal
+LVA1,Annija Varkale,1,0,0,0,0,0,
+LVA2,Darta Rituma,1,0,1,1,1,0,
+LVA3,Annija Katkevica,1,0,0,0,0,0,
+LVA4,Loreta Rutkovska,1,0,0,2,0,0,
+MDA1,Nicoleta Mahu,5,0,0,5,1,0,Bronze Medal
+MDA2,Elvira Serdtevoi,7,0,0,5,1,0,Bronze Medal
+MEX1,María Cecilia Rojas Cuadra,7,3,0,3,7,0,Silver Medal
+MEX2,Olga Medrano Martín del Campo,7,3,2,1,3,0,Bronze Medal
+MEX3,Alka Xavier Earathu,7,4,0,1,1,0,Bronze Medal
+MEX4,Naomi Mastache López,7,1,0,4,2,0,Bronze Medal
+MKD1,Sanja Simonovikj,7,0,0,0,0,0,Honourable Mention
+MKD2,Tea Stoilkovska,1,0,0,3,0,0,
+MKD3,Teodora Bujaroska,7,0,0,6,1,0,Bronze Medal
+MKD4,Anastasija Trajanova,1,0,0,0,0,0,
+NLD1,Eva NLD1-2014,1,1,1,7,0,0,Honourable Mention
+NLD2,Christel van Diepen,1,0,1,0,0,0,
+NLD3,Kirsten Peeters,1,2,0,0,1,0,
+NLD4,Elise Sänger,1,1,0,0,7,0,Honourable Mention
+NOR1,Kari Lovise Lodsby,1,3,1,1,2,0,
+NOR2,Anna Lyubarskaja,0,0,0,7,2,0,Honourable Mention
+NOR3,Weronika Wrzos-Kaminska,0,0,0,0,2,0,
+POL1,Anna Czerwińska,2,1,0,7,2,0,Bronze Medal
+POL2,Aleksandra Mnich,7,2,0,5,0,0,Bronze Medal
+POL3,Bogna Pawlus,7,3,4,0,2,2,Bronze Medal
+POL4,Dominika Regiec,7,3,0,7,0,1,Bronze Medal
+ROU1,Simona Diaconu,7,1,1,7,7,7,Gold Medal
+ROU2,Maria Romina Ivan,7,0,0,7,0,7,Silver Medal
+ROU3,Ioana Alexandra Teodorescu,7,0,6,7,2,7,Gold Medal
+ROU4,Raluca Cobzaru,7,2,0,7,0,0,Bronze Medal
+SAU1,Shaden Alshammari,7,5,0,0,2,0,Bronze Medal
+SAU2,Omniyyah Khawjah,1,0,0,0,0,0,
+SAU3,Amal Meer,7,0,1,0,1,0,Honourable Mention
+SAU4,Joud Saleh,7,2,0,0,0,0,Honourable Mention
+SRB1,Anđela Šarković,7,7,4,7,7,1,Gold Medal
+SRB2,Bogdana Jelić,7,6,1,7,3,3,Gold Medal
+SRB3,Marijana Vujadinović,7,0,2,7,1,7,Silver Medal
+SRB4,Kristina Silađi,7,0,0,7,1,0,Bronze Medal
+SUI1,Viera Klasovita,1,0,0,2,0,0,
+SUI2,Melina Lüthi,1,0,0,2,0,0,
+SUI3,Therese Moerschell,1,0,0,0,0,0,
+SUI4,Stefanie Zbinden,7,4,1,1,5,0,Bronze Medal
+SVN1,Klara Drofenik,1,3,0,0,2,0,
+SVN2,Martina Lokar,1,0,0,0,0,0,
+SVN3,Klara Nosan,1,2,0,7,0,0,Honourable Mention
+SVN4,Timeja Strašek,7,0,0,0,0,0,Honourable Mention
+TUN1,Nada Saaidia,1,0,1,1,0,0,
+TUN2,Nour Elhouda Sabbagh,1,0,0,1,0,0,
+TUR1,Feyza Duman,7,0,2,7,7,0,Silver Medal
+TUR2,Çağıl Kalender,7,3,0,7,3,0,Silver Medal
+TUR3,Melike Ayşegül Kara,7,3,1,7,7,0,Silver Medal
+TUR4,Ayşe Pelin Özcan,7,0,1,3,2,0,Bronze Medal
+UKR1,Anastasiya Alokhina,7,7,7,7,7,0,Gold Medal
+UKR2,Sofiya Dubova,7,7,7,7,7,6,Gold Medal
+UKR3,Nataliia Khotiaintseva,7,5,7,7,7,7,Gold Medal
+UKR4,Olga Silina,7,6,0,7,3,0,Silver Medal
+UNK1,Olivia Aaronson,1,0,6,7,7,0,Silver Medal
+UNK2,Rosie Cates,1,3,0,1,6,0,Bronze Medal
+UNK3,Kirsten Land,1,2,0,7,0,0,Honourable Mention
+UNK4,Joanna Yass,7,2,0,1,1,0,Bronze Medal
+USA1,Meghal Gupta,1,3,0,7,7,3,Silver Medal
+USA2,Celine Liang,7,4,0,7,2,7,Gold Medal
+USA3,Danielle Wang,7,7,7,7,7,7,Gold Medal
+USA4,Rachelle Zhang,6,5,7,7,1,0,Gold Medal
