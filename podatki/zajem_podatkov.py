@@ -1,8 +1,17 @@
 import csv
 import os
+from numpy import NaN
 import requests
 import re
 
+
+PRIZE_MAP = {
+    "Gold Medal" : 4,
+    "Silver Medal" : 3,
+    "Bronze Medal" : 2,
+    "Honourable Mention" : 1,
+    "" : 0
+}
 
 class StranNeObstaja(Exception):
     pass
@@ -32,6 +41,13 @@ vzorec_vrstice = re.compile(
 vzorec_tabele = re.compile(
     r'Scores by contestant code.*?'
     r'Ranked scores',
+    flags=re.DOTALL
+)
+
+vzorec_cutoffs = re.compile(
+    r'gold medals \(scores &ge; (?P<gold>\d*).*?'
+    r'silver medals \(scores &ge; (?P<silver>\d*).*?'
+    r'bronze medals \(scores &ge; (?P<bronze>\d*)',
     flags=re.DOTALL
 )
 
@@ -75,8 +91,9 @@ def download_nth_egmo(n: int) -> str:
         if "404 Not Found" in vsebina:
             raise StranNeObstaja
 
-        save_string_to_file(vsebina, os.path.join(
-            "podatki", "html"), file_name(n, 'html'))
+        save_string_to_file(vsebina,
+            os.path.join("podatki", "html"),
+            file_name(n, 'html'))
 
     except requests.exceptions.ConnectionError:
         print(
@@ -90,6 +107,7 @@ def izlosci_tekmovalko(vrstica: str) -> dict:
     tekmovalka = vzorec_tekmovalke.search(vrstica).groupdict()
     for i in range(1, 7):
         tekmovalka[f"P{i}"] = int(tekmovalka[f"P{i}"])
+    tekmovalka["prize"] = PRIZE_MAP[tekmovalka["prize"]]
     return tekmovalka
 
 
@@ -126,6 +144,13 @@ def html_to_csv(n: int) -> None:
 
     save_to_csv(tekmovalke, csv_dir, file_name(n, "csv"))
 
+def get_cutoffs(n: int):
+    stran = get_html(n)
+    cutoffs = {}
+    cutoffs['egmo'] = n
+    cutoffs |= vzorec_cutoffs.search(stran).groupdict()
+    return cutoffs
+
 
 def main(force_dl: bool = False, force_clean: bool = False) -> None:
     n = 2
@@ -145,6 +170,12 @@ def main(force_dl: bool = False, force_clean: bool = False) -> None:
             break
         n += 1
 
+    cutoffs = []
+    for m in range(2,n):
+        cutoffs.append(get_cutoffs(m))
+
+    save_to_csv(cutoffs, csv_dir, "cutoffs.csv")
+
 
 if __name__ == '__main__':
-    main()
+    main(force_dl=True, force_clean=True)
