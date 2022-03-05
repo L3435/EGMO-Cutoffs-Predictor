@@ -36,3 +36,11 @@ rojakinj in, če je posamena tekmovalka na olimpijadi že
 sodelovala. Efektivnost napovednika bom preveril na lanskem
 [RSS Feedu](https://www.egmo.org/egmos/egmo10/scoreboard/rss.xml),
 v katerem so kronološko shranjeni vnosi točk v strežnik.
+
+---
+
+## Vsebina podatkov
+
+V `csv` datotekah so za vsak EGMO shranjeni podatki o rezultatih vsake
+tekmovalke po nalogah, njen dosežek in šifra. Izpustil sem prvo izvedbo
+tekmovanja, saj je imela drugačen format od ostalih.
