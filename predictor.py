@@ -34,7 +34,7 @@ def fill_random(egmo_table, n, fq):
         frekvence = [
             1 + 
             freqframe[i] if i in freqframe else 0 +
-            previous_freqframe[i] if i in previous_freqframe else 0
+            previous_freqframe[i] / 4 if i in previous_freqframe else 0
             for i in range(8)]
         egmo_table[f"P{i}"] = egmo_table[f"P{i}"].apply(
             random_score, {"frekvence": frekvence, "s": sum(frekvence)})
@@ -96,16 +96,14 @@ def predict(df, n, fq=None, cond="likely", country_codes=None, weights=None):
     n = len(urejeni.index)
 
     first_cut = urejeni.iloc[n // 2].loc['total']
+    second_cut = urejeni.iloc[n // 4].loc['total']
+    third_cut = urejeni.iloc[n // 12].loc['total']
 
     scores = urejeni['total'][::-1]
 
     cutoffs = []
     for bronze in [first_cut, first_cut + 1]:
-        bronze_count =  n - scores.searchsorted(bronze, side='left')
-        second_cut = urejeni.iloc[bronze_count // 2].loc['total']
         for silver in [second_cut, second_cut + 1]:
-            silver_count = n - scores.searchsorted(silver, side='left')
-            third_cut = urejeni.iloc[silver_count // 3].loc['total']
             for gold in [third_cut, third_cut + 1]:
                 cutoffs.append((bronze, silver, gold))
 
