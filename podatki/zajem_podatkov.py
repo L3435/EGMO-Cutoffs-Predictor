@@ -19,7 +19,7 @@ class StranNeObstaja(Exception):
 
 vzorec_tekmovalke = re.compile(
     r'<td class="egmo-scores">\d*</td>'
-    r'<td class="egmo-scores">\d*</td>'
+    r'<td class="egmo-scores">(?P<official>.*?)</td>'
     r'<td class="egmo-scores"><a href="/people/person\d+/">(?P<code>.*?)</a></td>'
     r'<td class="egmo-scores"><a href="/people/person\d+/">(?P<name>.*?)</a></td>'
     r'<td class="egmo-scores">(?P<P1>\d*)</td>'
@@ -56,8 +56,13 @@ csv_dir = os.path.join("podatki", "csv")
 
 
 def url_tabele(n: int) -> str:
-    """Vrne tabelo z rezultati n-tega EGMO."""
+    """Vrne URL tabele z rezultati n-tega EGMO."""
     return f"https://www.egmo.org/egmos/egmo{n}/scoreboard/"
+
+
+def url_xml(n: int) -> str:
+    """Vrne URL xml datoteke s kronološkim vnosom podaktov."""
+    return f"https://www.egmo.org/egmos/egmo{n}/scoreboard/rss.xml"
 
 
 def file_name(n: int, koncnica: str) -> str:
@@ -81,7 +86,7 @@ def get_html(n: int) -> str:
         return vsebina
 
 
-def download_nth_egmo(n: int) -> str:
+def download_nth_egmo(n: int) -> None:
     """Naloži html stran z rezultati n-tega EGMO in jo shrani v datoteko."""
     try:
         page_content = requests.get(url_tabele(n))
@@ -91,9 +96,17 @@ def download_nth_egmo(n: int) -> str:
         if "404 Not Found" in vsebina:
             raise StranNeObstaja
 
-        save_string_to_file(vsebina,
+        save_string_to_file(
+            vsebina,
             os.path.join("podatki", "html"),
             file_name(n, 'html'))
+        
+        xml = requests.get(url_xml(n))
+        xml.encoding = 'utf-8'
+        save_string_to_file(
+            xml.text,
+            os.path.join("podatki", "xml"),
+            file_name(n, 'xml'))
 
     except requests.exceptions.ConnectionError:
         print(
@@ -108,6 +121,7 @@ def izlosci_tekmovalko(vrstica: str) -> dict:
     for i in range(1, 7):
         tekmovalka[f"P{i}"] = int(tekmovalka[f"P{i}"])
     tekmovalka["prize"] = PRIZE_MAP[tekmovalka["prize"]]
+    tekmovalka["official"] = bool(tekmovalka["official"])
     return tekmovalka
 
 

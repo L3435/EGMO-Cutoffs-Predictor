@@ -1,110 +1,110 @@
-code,name,P1,P2,P3,P4,P5,P6,prize
-BEL1,Pauline Bessemans,1,3,0,0,0,0,0
-BEL2,Morine Delhelle,7,0,0,1,0,0,1
-BEL3,France Gheeraert,4,1,0,5,0,0,0
-BEL4,Manon Mackels,1,1,0,0,0,0,0
-BGR1,Denitsa Markova,7,3,7,1,7,0,3
-BGR2,Violeta Naydenova,7,3,1,7,3,0,3
-BGR3,Magdalena Georgieva,7,2,0,7,7,0,3
-BGR4,Dona-Maria Ivanova,2,1,0,7,1,0,2
-BLR1,Katsiaryna Kunts,7,1,0,7,1,0,2
-BLR2,Lizaveta Manzhulina,5,2,0,7,1,0,2
-BLR3,Ina Rudovich,7,0,0,0,1,0,1
-BLR4,Swetlana Shaban,7,0,1,0,2,0,1
-BLRB1,Diana Fomina,7,1,7,0,0,0,2
-BLRB2,Tatsiana Palikarpava,2,0,0,0,0,0,0
-BLRB3,Anhelina Yarashenka,1,1,0,6,0,0,0
-BLRB4,Hanna Zadarazhniuk,1,1,0,7,0,0,1
-FIN1,Ella Anttila,1,0,2,1,2,0,0
-FIN2,Ella Tamir,1,1,0,1,2,0,0
-FIN3,Tara Vaittinen,0,0,0,0,0,0,0
-FRA1,Albertine Devillers,1,2,1,2,2,0,0
-FRA2,Clara Ding,7,4,0,4,6,0,3
-FRA3,Myriam Qrichi Aniba,1,0,0,0,2,0,0
-FRA4,Lucie Wang,7,4,0,7,7,0,3
-HUN1,Zsuzsanna Baran,7,5,7,3,7,0,4
-HUN2,Panna Fekete,7,0,1,7,7,0,3
-HUN3,Szuzina Gyulai-Nagy,7,3,2,3,0,1,2
-HUN4,Sára Khayouti,7,1,7,1,7,0,3
-IND1,Pranjal Warade,7,2,0,7,0,0,2
-IND2,Raagini Patki,2,1,0,1,0,3,0
-IRL1,Toni Aidong Huang,1,1,0,1,0,0,0
-IRL2,Ioana Grigoras,1,1,0,0,0,0,0
-IRL3,Anna Mustata,7,3,0,3,7,0,3
-IRL4,Katie Louise O&#x27;Connor,1,2,0,0,1,0,0
-ITA1,Camilla Casamento Tumeo,6,3,0,7,0,0,2
-ITA2,Giulia Cornali,7,3,0,1,1,0,2
-ITA3,Morena Porzio,7,0,1,3,1,0,2
-ITA4,Vittoria Ricciuti,1,0,0,7,0,0,1
-JPN1,Yurika Hirobe,7,2,0,4,3,0,2
-JPN2,Mayuko Kori,7,2,0,1,0,3,2
-JPN3,Maya Ogita,7,5,0,7,7,0,4
-JPN4,Yuika Shimo,1,1,0,7,0,3,2
-LTU1,Vaiva Augustinaitė,1,3,0,3,2,0,0
-LTU2,Leticija Dubickaitė,1,0,0,4,0,0,0
-LTU3,Aistė Grušnytė,1,0,0,3,1,0,0
-LTU4,Neringa Levinskaitė,7,1,7,2,3,0,3
-LUX1,Tara Trauthwein,7,2,0,7,1,0,2
-LVA1,Annija Varkale,1,0,0,0,0,0,0
-LVA2,Darta Rituma,1,0,1,1,1,0,0
-LVA3,Annija Katkevica,1,0,0,0,0,0,0
-LVA4,Loreta Rutkovska,1,0,0,2,0,0,0
-MDA1,Nicoleta Mahu,5,0,0,5,1,0,2
-MDA2,Elvira Serdtevoi,7,0,0,5,1,0,2
-MEX1,María Cecilia Rojas Cuadra,7,3,0,3,7,0,3
-MEX2,Olga Medrano Martín del Campo,7,3,2,1,3,0,2
-MEX3,Alka Xavier Earathu,7,4,0,1,1,0,2
-MEX4,Naomi Mastache López,7,1,0,4,2,0,2
-MKD1,Sanja Simonovikj,7,0,0,0,0,0,1
-MKD2,Tea Stoilkovska,1,0,0,3,0,0,0
-MKD3,Teodora Bujaroska,7,0,0,6,1,0,2
-MKD4,Anastasija Trajanova,1,0,0,0,0,0,0
-NLD1,Eva NLD1-2014,1,1,1,7,0,0,1
-NLD2,Christel van Diepen,1,0,1,0,0,0,0
-NLD3,Kirsten Peeters,1,2,0,0,1,0,0
-NLD4,Elise Sänger,1,1,0,0,7,0,1
-NOR1,Kari Lovise Lodsby,1,3,1,1,2,0,0
-NOR2,Anna Lyubarskaja,0,0,0,7,2,0,1
-NOR3,Weronika Wrzos-Kaminska,0,0,0,0,2,0,0
-POL1,Anna Czerwińska,2,1,0,7,2,0,2
-POL2,Aleksandra Mnich,7,2,0,5,0,0,2
-POL3,Bogna Pawlus,7,3,4,0,2,2,2
-POL4,Dominika Regiec,7,3,0,7,0,1,2
-ROU1,Simona Diaconu,7,1,1,7,7,7,4
-ROU2,Maria Romina Ivan,7,0,0,7,0,7,3
-ROU3,Ioana Alexandra Teodorescu,7,0,6,7,2,7,4
-ROU4,Raluca Cobzaru,7,2,0,7,0,0,2
-SAU1,Shaden Alshammari,7,5,0,0,2,0,2
-SAU2,Omniyyah Khawjah,1,0,0,0,0,0,0
-SAU3,Amal Meer,7,0,1,0,1,0,1
-SAU4,Joud Saleh,7,2,0,0,0,0,1
-SRB1,Anđela Šarković,7,7,4,7,7,1,4
-SRB2,Bogdana Jelić,7,6,1,7,3,3,4
-SRB3,Marijana Vujadinović,7,0,2,7,1,7,3
-SRB4,Kristina Silađi,7,0,0,7,1,0,2
-SUI1,Viera Klasovita,1,0,0,2,0,0,0
-SUI2,Melina Lüthi,1,0,0,2,0,0,0
-SUI3,Therese Moerschell,1,0,0,0,0,0,0
-SUI4,Stefanie Zbinden,7,4,1,1,5,0,2
-SVN1,Klara Drofenik,1,3,0,0,2,0,0
-SVN2,Martina Lokar,1,0,0,0,0,0,0
-SVN3,Klara Nosan,1,2,0,7,0,0,1
-SVN4,Timeja Strašek,7,0,0,0,0,0,1
-TUN1,Nada Saaidia,1,0,1,1,0,0,0
-TUN2,Nour Elhouda Sabbagh,1,0,0,1,0,0,0
-TUR1,Feyza Duman,7,0,2,7,7,0,3
-TUR2,Çağıl Kalender,7,3,0,7,3,0,3
-TUR3,Melike Ayşegül Kara,7,3,1,7,7,0,3
-TUR4,Ayşe Pelin Özcan,7,0,1,3,2,0,2
-UKR1,Anastasiya Alokhina,7,7,7,7,7,0,4
-UKR2,Sofiya Dubova,7,7,7,7,7,6,4
-UKR3,Nataliia Khotiaintseva,7,5,7,7,7,7,4
-UKR4,Olga Silina,7,6,0,7,3,0,3
-UNK1,Olivia Aaronson,1,0,6,7,7,0,3
-UNK2,Rosie Cates,1,3,0,1,6,0,2
-UNK3,Kirsten Land,1,2,0,7,0,0,1
-UNK4,Joanna Yass,7,2,0,1,1,0,2
-USA1,Meghal Gupta,1,3,0,7,7,3,3
-USA2,Celine Liang,7,4,0,7,2,7,4
-USA3,Danielle Wang,7,7,7,7,7,7,4
-USA4,Rachelle Zhang,6,5,7,7,1,0,4
+official,code,name,P1,P2,P3,P4,P5,P6,prize
+True,BEL1,Pauline Bessemans,1,3,0,0,0,0,0
+True,BEL2,Morine Delhelle,7,0,0,1,0,0,1
+True,BEL3,France Gheeraert,4,1,0,5,0,0,0
+True,BEL4,Manon Mackels,1,1,0,0,0,0,0
+True,BGR1,Denitsa Markova,7,3,7,1,7,0,3
+True,BGR2,Violeta Naydenova,7,3,1,7,3,0,3
+True,BGR3,Magdalena Georgieva,7,2,0,7,7,0,3
+True,BGR4,Dona-Maria Ivanova,2,1,0,7,1,0,2
+True,BLR1,Katsiaryna Kunts,7,1,0,7,1,0,2
+True,BLR2,Lizaveta Manzhulina,5,2,0,7,1,0,2
+True,BLR3,Ina Rudovich,7,0,0,0,1,0,1
+True,BLR4,Swetlana Shaban,7,0,1,0,2,0,1
+False,BLRB1,Diana Fomina,7,1,7,0,0,0,2
+False,BLRB2,Tatsiana Palikarpava,2,0,0,0,0,0,0
+False,BLRB3,Anhelina Yarashenka,1,1,0,6,0,0,0
+False,BLRB4,Hanna Zadarazhniuk,1,1,0,7,0,0,1
+True,FIN1,Ella Anttila,1,0,2,1,2,0,0
+True,FIN2,Ella Tamir,1,1,0,1,2,0,0
+True,FIN3,Tara Vaittinen,0,0,0,0,0,0,0
+True,FRA1,Albertine Devillers,1,2,1,2,2,0,0
+True,FRA2,Clara Ding,7,4,0,4,6,0,3
+True,FRA3,Myriam Qrichi Aniba,1,0,0,0,2,0,0
+True,FRA4,Lucie Wang,7,4,0,7,7,0,3
+True,HUN1,Zsuzsanna Baran,7,5,7,3,7,0,4
+True,HUN2,Panna Fekete,7,0,1,7,7,0,3
+True,HUN3,Szuzina Gyulai-Nagy,7,3,2,3,0,1,2
+True,HUN4,Sára Khayouti,7,1,7,1,7,0,3
+False,IND1,Pranjal Warade,7,2,0,7,0,0,2
+False,IND2,Raagini Patki,2,1,0,1,0,3,0
+True,IRL1,Toni Aidong Huang,1,1,0,1,0,0,0
+True,IRL2,Ioana Grigoras,1,1,0,0,0,0,0
+True,IRL3,Anna Mustata,7,3,0,3,7,0,3
+True,IRL4,Katie Louise O&#x27;Connor,1,2,0,0,1,0,0
+True,ITA1,Camilla Casamento Tumeo,6,3,0,7,0,0,2
+True,ITA2,Giulia Cornali,7,3,0,1,1,0,2
+True,ITA3,Morena Porzio,7,0,1,3,1,0,2
+True,ITA4,Vittoria Ricciuti,1,0,0,7,0,0,1
+False,JPN1,Yurika Hirobe,7,2,0,4,3,0,2
+False,JPN2,Mayuko Kori,7,2,0,1,0,3,2
+False,JPN3,Maya Ogita,7,5,0,7,7,0,4
+False,JPN4,Yuika Shimo,1,1,0,7,0,3,2
+True,LTU1,Vaiva Augustinaitė,1,3,0,3,2,0,0
+True,LTU2,Leticija Dubickaitė,1,0,0,4,0,0,0
+True,LTU3,Aistė Grušnytė,1,0,0,3,1,0,0
+True,LTU4,Neringa Levinskaitė,7,1,7,2,3,0,3
+True,LUX1,Tara Trauthwein,7,2,0,7,1,0,2
+True,LVA1,Annija Varkale,1,0,0,0,0,0,0
+True,LVA2,Darta Rituma,1,0,1,1,1,0,0
+True,LVA3,Annija Katkevica,1,0,0,0,0,0,0
+True,LVA4,Loreta Rutkovska,1,0,0,2,0,0,0
+True,MDA1,Nicoleta Mahu,5,0,0,5,1,0,2
+True,MDA2,Elvira Serdtevoi,7,0,0,5,1,0,2
+False,MEX1,María Cecilia Rojas Cuadra,7,3,0,3,7,0,3
+False,MEX2,Olga Medrano Martín del Campo,7,3,2,1,3,0,2
+False,MEX3,Alka Xavier Earathu,7,4,0,1,1,0,2
+False,MEX4,Naomi Mastache López,7,1,0,4,2,0,2
+True,MKD1,Sanja Simonovikj,7,0,0,0,0,0,1
+True,MKD2,Tea Stoilkovska,1,0,0,3,0,0,0
+True,MKD3,Teodora Bujaroska,7,0,0,6,1,0,2
+True,MKD4,Anastasija Trajanova,1,0,0,0,0,0,0
+True,NLD1,Eva NLD1-2014,1,1,1,7,0,0,1
+True,NLD2,Christel van Diepen,1,0,1,0,0,0,0
+True,NLD3,Kirsten Peeters,1,2,0,0,1,0,0
+True,NLD4,Elise Sänger,1,1,0,0,7,0,1
+True,NOR1,Kari Lovise Lodsby,1,3,1,1,2,0,0
+True,NOR2,Anna Lyubarskaja,0,0,0,7,2,0,1
+True,NOR3,Weronika Wrzos-Kaminska,0,0,0,0,2,0,0
+True,POL1,Anna Czerwińska,2,1,0,7,2,0,2
+True,POL2,Aleksandra Mnich,7,2,0,5,0,0,2
+True,POL3,Bogna Pawlus,7,3,4,0,2,2,2
+True,POL4,Dominika Regiec,7,3,0,7,0,1,2
+True,ROU1,Simona Diaconu,7,1,1,7,7,7,4
+True,ROU2,Maria Romina Ivan,7,0,0,7,0,7,3
+True,ROU3,Ioana Alexandra Teodorescu,7,0,6,7,2,7,4
+True,ROU4,Raluca Cobzaru,7,2,0,7,0,0,2
+False,SAU1,Shaden Alshammari,7,5,0,0,2,0,2
+False,SAU2,Omniyyah Khawjah,1,0,0,0,0,0,0
+False,SAU3,Amal Meer,7,0,1,0,1,0,1
+False,SAU4,Joud Saleh,7,2,0,0,0,0,1
+True,SRB1,Anđela Šarković,7,7,4,7,7,1,4
+True,SRB2,Bogdana Jelić,7,6,1,7,3,3,4
+True,SRB3,Marijana Vujadinović,7,0,2,7,1,7,3
+True,SRB4,Kristina Silađi,7,0,0,7,1,0,2
+True,SUI1,Viera Klasovita,1,0,0,2,0,0,0
+True,SUI2,Melina Lüthi,1,0,0,2,0,0,0
+True,SUI3,Therese Moerschell,1,0,0,0,0,0,0
+True,SUI4,Stefanie Zbinden,7,4,1,1,5,0,2
+True,SVN1,Klara Drofenik,1,3,0,0,2,0,0
+True,SVN2,Martina Lokar,1,0,0,0,0,0,0
+True,SVN3,Klara Nosan,1,2,0,7,0,0,1
+True,SVN4,Timeja Strašek,7,0,0,0,0,0,1
+False,TUN1,Nada Saaidia,1,0,1,1,0,0,0
+False,TUN2,Nour Elhouda Sabbagh,1,0,0,1,0,0,0
+True,TUR1,Feyza Duman,7,0,2,7,7,0,3
+True,TUR2,Çağıl Kalender,7,3,0,7,3,0,3
+True,TUR3,Melike Ayşegül Kara,7,3,1,7,7,0,3
+True,TUR4,Ayşe Pelin Özcan,7,0,1,3,2,0,2
+True,UKR1,Anastasiya Alokhina,7,7,7,7,7,0,4
+True,UKR2,Sofiya Dubova,7,7,7,7,7,6,4
+True,UKR3,Nataliia Khotiaintseva,7,5,7,7,7,7,4
+True,UKR4,Olga Silina,7,6,0,7,3,0,3
+True,UNK1,Olivia Aaronson,1,0,6,7,7,0,3
+True,UNK2,Rosie Cates,1,3,0,1,6,0,2
+True,UNK3,Kirsten Land,1,2,0,7,0,0,1
+True,UNK4,Joanna Yass,7,2,0,1,1,0,2
+False,USA1,Meghal Gupta,1,3,0,7,7,3,3
+False,USA2,Celine Liang,7,4,0,7,2,7,4
+False,USA3,Danielle Wang,7,7,7,7,7,7,4
+False,USA4,Rachelle Zhang,6,5,7,7,1,0,4
